@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!--[if IE 7 ]>		 <html class="no-js ie ie7 lte7 lte8 lte9" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]>		 <html class="no-js ie ie8 lte8 lte9" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]>		 <html class="no-js ie ie9 lte9>" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+	<title>Epic Journeys by RReddVar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/authorPage.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	
+	<header>
+			<h1>Epic Journeys</h1>	
+	</header>
+	
+		<nav id="navBar" class="group">
+			<ul id="nav-orient">
+				<li> <a href="#" class="nav-item">Home</a></li>
+				<li> <a href="#" class="nav-item">Books</a>  
+						<ul>
+							<li class="sub-nav"><a href="#!">Crown of Ravens</a></li>
+							<li class="sub-nav"><a href="#!">The Gatekeeper</a></li>
+							<li class="sub-nav"><a href="#!">Phoenix</a></li>
+							<li class="sub-nav"><a href="#!">Daughter of Eternity</a></li>
+						</ul>
+				</li>
+				<li> <a href="#" class="nav-item">Blog</a></li>
+				<li> <a href="#" class="nav-item">About Me</a></li>
+				<li> <a href="#" class="nav-item">Reviews</a></li>
+				<li> <a href="#" class="nav-item">Contact</a></li>
+			</ul>
+		</nav>
+		
+	<div id="bookSlider" class="group">
+
+		<div>
+				<div class="productImages"><img id="firstPic" src="images/crownofravens-thumb.jpg"></div>
+				<div class="productImages"> <img src="images/gatekeeper-thumb.jpg"></div>
+				<div class="productImages"><img src="images/phoenix-thumb.jpg"></div>
+				<div class="productImages"><img src="images/daughter-thumb.jpg"></div>
+				
+				<div class= "bTns group">
+					
+					<button class="btnSlide" onclick="slideBtn(-1)" id="btn1"><a href="#!">&#10094;</a></button>
+					
+					<button class="btnSlide" onclick="slideBtn(1)" id="btn2"><a href="#!">&#10095;</a></button>
+
+				</div>
+		</div>
+	</div>
+
+	<p id="paragraph">Prepare to enter another world....</p>
+	
+	<footer>
+		<div id="bottom-container" class="group">
+			<a href="#!" class="iconLink"><div class="socialIcon"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
+			<a href="#!" class="iconLink"><div class="socialIcon"><i class="fa fa-twitter-square" aria-hidden="true"></i></div></a>
+			<a href="#!" class="iconLink"><div class="socialIcon"><i class="fa fa-facebook-square" aria-hidden="true"></i></div></a>
+		</div>
+
+		<form action="/my-handling-form-page" method="get">
+			<div id="formFields">
+				<label id="formHeader">Subscribe to Author's Newsletter</label>
+				<input type="email" name="email" id="email" placeholder="Your email address" required="true">
+				<input type="submit" value="Sign up">
+			</div>
+		</form>
+	</footer>
+<script src="https://use.fontawesome.com/e499b4c207.js"></script>
+<script type="text/javascript" src="javascript/author.js"></script>
+</body>
+</html>
